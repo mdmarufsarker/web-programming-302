@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Table</title>
+  </head>
+  <body>
+    <!-- table th td tr caption 
+        thead tbody tfoot 
+        table -> table
+        th -> table header
+        td -> table data
+        tr -> table row
+        caption -> table caption
+        thead -> table head
+        tbody -> table body
+        tfoot -> table foot
+
+
+        colspan, rowspan -> attribute
+
+        table kaj kore hocche row-wise.
+        count the total row in a table.
+
+        column wise barle rowspan
+        row wise barle colspan
+    -->
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Maruf Sarker</td>
+        <td>42</td>
+        <td>Bangladesh</td>
+      </tr>
+      <tr>
+        <td>Fatema Akter</td>
+        <td>22</td>
+        <td>Bangladesh</td>
+      </tr>
+      <tr>
+        <td>Asif Mahmud</td>
+        <td>45</td>
+        <td>Bangladesh</td>
+      </tr>
+    </table>
+    <br /><br /><br />
+    <table border="1">
+      <tr>
+        <td>Column 1</td>
+        <td>Column 2</td>
+        <td>Column 3</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Row 2, Column 1</td>
+        <td>Row 2, Column 2</td>
+        <td>Row 2, Column 3</td>
+      </tr>
+      <tr>
+        <td>Row 3, Column 2</td>
+        <td>Row 3, Column 3</td>
+      </tr>
+      <tr>
+        <td colspan="3">Row 4</td>
+      </tr>
+    </table>
+    <br /><br /><br />
+
+    <table border="1">
+        <caption>Class Routine</caption>
+        <tr>
+            <th></th>
+            <th>8:30-9:45</th>
+            <th>9:45-11:00</th>
+            <th>11:00-12:15</th>
+            <th>12:15-1:30</th>
+            <th>2:00-3:15</th>
+        </tr>
+        <tr align="center">
+            <th>Saturday</th>
+            <td colspan="2">IDP 1</td>
+            <td></td>
+            <td></td>
+            <td>Information System</td>
+        </tr>
+        <tr align="center">
+            <th>Tuesday</th>
+            <td>Computer Networking</td>
+            <td>Cyber Security</td>
+            <td></td>
+            <td>Web Programming</td>
+            <td>Financial</td>
+        </tr>
+        <tr align="center">
+            <th>Thursday</th>
+            <td>Computer Networking</td>
+            <td>Cyber Security</td>
+            <td></td>
+            <td>Web Programming</td>
+            <td>Financial</td>
+        </tr>
+        <tr align="center">
+            <th>Friday</th>
+            <td colspan="2">Computer Network Lab</td>
+            <td colspan="2">Web Programming Lab</td>
+            <td>Information System</td>
+        </tr>
+    </table>
+  </body>
+</html>
